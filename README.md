@@ -29,3 +29,15 @@ The repository includes several standard beamforming techniques for comparison:
 ## How to Run
 
 To reproduce the results or run the simulation, you would typically start with **[`beamforming_comparison_qos.m`](./beamforming_comparison_qos.m)**. This script sets up the system parameters (antennas `Nt`, users `B` & `T`, noise `sigma`, etc.), generates channels, and loops through the algorithms to compute and compare their performance.
+
+## Paper Information
+For any reproducibility, please kindly cite the following paper:
+```
+@article{zhang2025beamforming,
+  title={Beamforming design for semantic-bit coexisting communication system},
+  author={Zhang, Maojun and Zhu, Guangxu and Jin, Richeng and Chen, Xiaoming and Shi, Qingjiang and Zhong, Caijun and Huang, Kaibin},
+  journal={IEEE Journal on Selected Areas in Communications},
+  year={2025},
+  publisher={IEEE}
+}
+```
