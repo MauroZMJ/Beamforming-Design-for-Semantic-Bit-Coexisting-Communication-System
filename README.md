@@ -5,7 +5,7 @@ This repository contains the code for the paper **"Beamforming Design for Semant
 ## Key Components
 
 ### 1. Core Algorithm
-*   **[`MM_FP`](./MM_FP.m)**: This is the main contribution. It implements a **Minorization-Maximization Fractional Programming (MM-FP)** algorithm to solve the beamforming optimization problem. It iteratively updates precoding matrices to maximize semantic performance while satisfying QoS constraints for bit users.
+*   **[`MM_FP`](./MM_FP.m)**: This is the main contribution. It implements a **Majority-Maximization Fractional Programming (MM-FP)** algorithm to solve the beamforming optimization problem. It iteratively updates precoding matrices to maximize semantic performance while satisfying QoS constraints for bit users.
 
 *   **[`LP-MM-FP`](./MM_FP_naive_v1.m)**: This is a low-complexity version of MM-FP, which is motivated by the derived semi closed-form solution. 
 
